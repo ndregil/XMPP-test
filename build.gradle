@@ -1,5 +1,5 @@
 android {
-    namespace = 'com.example.app'
+    namespace = 'com.ndregil.xmpp'
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -8,7 +8,7 @@ android {
     // ...
 
     defaultConfig {
-        applicationId = 'com.example.app'
+        applicationId = 'com.ndregil.xmpp'
         minSdk {
             version = release(23)
         }
