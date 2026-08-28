@@ -1,0 +1,20 @@
+android {
+    namespace = 'com.example.app'
+    compileSdk {
+        version = release(36) {
+            minorApiLevel = 1
+        }
+    }
+    // ...
+
+    defaultConfig {
+        applicationId = 'com.example.app'
+        minSdk {
+            version = release(23)
+        }
+        targetSdk {
+            version = release(36)
+        }
+        // ...
+    }
+}
